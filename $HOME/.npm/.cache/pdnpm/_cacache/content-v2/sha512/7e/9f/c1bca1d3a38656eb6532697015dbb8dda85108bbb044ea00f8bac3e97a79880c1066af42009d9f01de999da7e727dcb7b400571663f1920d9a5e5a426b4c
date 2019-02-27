@@ -1,0 +1,48 @@
+{
+  "name": "indexof",
+  "versions": {
+    "0.0.1": {
+      "name": "indexof",
+      "description": "Microsoft sucks",
+      "version": "0.0.1",
+      "keywords": [
+        "index",
+        "array",
+        "indexOf"
+      ],
+      "dependencies": {},
+      "component": {
+        "scripts": {
+          "indexof/index.js": "index.js"
+        }
+      },
+      "_id": "indexof@0.0.1",
+      "dist": {
+        "shasum": "82dc336d232b9062179d05ab3293a66059fd435d",
+        "size": 698,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/indexof/-/indexof-0.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "tjholowaychuk",
+          "email": "tj@vision-media.ca"
+        }
+      ],
+      "directories": {},
+      "publish_time": 1346430014894,
+      "_cnpm_publish_time": 1346430014894
+    }
+  },
+  "dist-tags": {
+    "latest": "0.0.1"
+  },
+  "_rev": "4501-ad0da62e38f422ca",
+  "readme": "# indexOf\n\n  Lame indexOf thing, thanks microsoft\n\n## Example\n\n```js\nvar index = require('indexof');\nindex(arr, obj);\n```\n\n## License\n\n  MIT",
+  "time": {
+    "modified": "2017-03-29T23:50:52.000Z",
+    "created": "2012-08-31T16:20:14.894Z",
+    "0.0.1": "2012-08-31T16:20:14.894Z"
+  },
+  "_attachments": {}
+}

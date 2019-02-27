@@ -1,0 +1,682 @@
+{
+  "name": "eslint-scope",
+  "versions": {
+    "3.7.1": {
+      "name": "eslint-scope",
+      "description": "ECMAScript scope analyzer for ESLint",
+      "homepage": "http://github.com/eslint/eslint-scope",
+      "main": "lib/index.js",
+      "version": "3.7.1",
+      "engines": {
+        "node": ">=4.0.0"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eslint/eslint-scope.git"
+      },
+      "bugs": {
+        "url": "https://github.com/eslint/eslint-scope/issues"
+      },
+      "license": "BSD-2-Clause",
+      "scripts": {
+        "test": "node Makefile.js test",
+        "lint": "node Makefile.js lint",
+        "release": "eslint-release",
+        "ci-release": "eslint-ci-release",
+        "gh-release": "eslint-gh-release",
+        "alpharelease": "eslint-prerelease alpha",
+        "betarelease": "eslint-prerelease beta"
+      },
+      "files": [
+        "LICENSE",
+        "README.md",
+        "lib"
+      ],
+      "dependencies": {
+        "esrecurse": "^4.1.0",
+        "estraverse": "^4.1.1"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "eslint": "^3.15.0",
+        "eslint-config-eslint": "^4.0.0",
+        "eslint-release": "^0.10.1",
+        "espree": "^3.1.1",
+        "istanbul": "^0.4.5",
+        "mocha": "^3.2.0",
+        "npm-license": "^0.3.3",
+        "shelljs": "^0.7.6",
+        "typescript": "~2.0.10",
+        "typescript-eslint-parser": "^1.0.0"
+      },
+      "gitHead": "bec1febf351ae7137a62241c18eb78876ee4fb7f",
+      "_id": "eslint-scope@3.7.1",
+      "_shasum": "3d63c3edfda02e06e01a452ad88caacc7cdcb6e8",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.3.1",
+      "_npmUser": {
+        "name": "ivolodin",
+        "email": "ivolodin@gmail.com"
+      },
+      "dist": {
+        "shasum": "3d63c3edfda02e06e01a452ad88caacc7cdcb6e8",
+        "size": 15576,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/eslint-scope/-/eslint-scope-3.7.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "btmills",
+          "email": "mills.brandont@gmail.com"
+        },
+        {
+          "name": "eslint",
+          "email": "nicholas+eslint@nczconsulting.com"
+        },
+        {
+          "name": "gyandeeps",
+          "email": "gyandeeps@gmail.com"
+        },
+        {
+          "name": "ivolodin",
+          "email": "ivolodin@gmail.com"
+        },
+        {
+          "name": "kaicataldo",
+          "email": "kaicataldo@gmail.com"
+        },
+        {
+          "name": "mysticatea",
+          "email": "star.ctor@gmail.com"
+        },
+        {
+          "name": "not-an-aardvark",
+          "email": "notaardvark@gmail.com"
+        },
+        {
+          "name": "nzakas",
+          "email": "nicholas@nczconsulting.com"
+        },
+        {
+          "name": "sharpbites",
+          "email": "alberto.email@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/eslint-scope-3.7.1.tgz_1492031610481_0.544424896594137"
+      },
+      "directories": {},
+      "publish_time": 1492031611158,
+      "_hasShrinkwrap": false,
+      "_cnpm_publish_time": 1492031611158
+    },
+    "3.7.0": {
+      "name": "eslint-scope",
+      "description": "ECMAScript scope analyzer for ESLint",
+      "homepage": "http://github.com/eslint/eslint-scope",
+      "main": "lib/index.js",
+      "version": "3.7.0",
+      "engines": {
+        "node": ">=4.0.0"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eslint/eslint-scope.git"
+      },
+      "bugs": {
+        "url": "https://github.com/eslint/eslint-scope/issues"
+      },
+      "license": "BSD-2-Clause",
+      "scripts": {
+        "test": "node Makefile.js test",
+        "lint": "node Makefile.js lint",
+        "release": "eslint-release",
+        "ci-release": "eslint-ci-release",
+        "gh-release": "eslint-gh-release",
+        "alpharelease": "eslint-prerelease alpha",
+        "betarelease": "eslint-prerelease beta"
+      },
+      "files": [
+        "LICENSE",
+        "README.md",
+        "lib"
+      ],
+      "dependencies": {
+        "esrecurse": "^4.1.0",
+        "estraverse": "^4.1.1"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "eslint": "^3.15.0",
+        "eslint-config-eslint": "^4.0.0",
+        "eslint-release": "^0.10.1",
+        "espree": "^3.1.1",
+        "istanbul": "^0.4.5",
+        "mocha": "^3.2.0",
+        "npm-license": "^0.3.3",
+        "shelljs": "^0.7.6",
+        "typescript": "~2.0.10",
+        "typescript-eslint-parser": "^1.0.0"
+      },
+      "gitHead": "c9146c664b88d077a44118effa800734bafa907c",
+      "_id": "eslint-scope@3.7.0",
+      "_shasum": "d95536f4081dee922e5fd60ed6795748ca54bb76",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.3.1",
+      "_npmUser": {
+        "name": "ivolodin",
+        "email": "ivolodin@gmail.com"
+      },
+      "dist": {
+        "shasum": "d95536f4081dee922e5fd60ed6795748ca54bb76",
+        "size": 15469,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/eslint-scope/-/eslint-scope-3.7.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "btmills",
+          "email": "mills.brandont@gmail.com"
+        },
+        {
+          "name": "eslint",
+          "email": "nicholas+eslint@nczconsulting.com"
+        },
+        {
+          "name": "gyandeeps",
+          "email": "gyandeeps@gmail.com"
+        },
+        {
+          "name": "ivolodin",
+          "email": "ivolodin@gmail.com"
+        },
+        {
+          "name": "kaicataldo",
+          "email": "kaicataldo@gmail.com"
+        },
+        {
+          "name": "mysticatea",
+          "email": "star.ctor@gmail.com"
+        },
+        {
+          "name": "not-an-aardvark",
+          "email": "notaardvark@gmail.com"
+        },
+        {
+          "name": "nzakas",
+          "email": "nicholas@nczconsulting.com"
+        },
+        {
+          "name": "sharpbites",
+          "email": "alberto.email@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/eslint-scope-3.7.0.tgz_1489788609116_0.35722322948276997"
+      },
+      "directories": {},
+      "publish_time": 1489788611109,
+      "_cnpm_publish_time": 1489788611109,
+      "_hasShrinkwrap": false
+    },
+    "4.0.0-alpha.0": {
+      "name": "eslint-scope",
+      "description": "ECMAScript scope analyzer for ESLint",
+      "homepage": "http://github.com/eslint/eslint-scope",
+      "main": "lib/index.js",
+      "version": "4.0.0-alpha.0",
+      "engines": {
+        "node": ">=4.0.0"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eslint/eslint-scope.git"
+      },
+      "bugs": {
+        "url": "https://github.com/eslint/eslint-scope/issues"
+      },
+      "license": "BSD-2-Clause",
+      "scripts": {
+        "test": "node Makefile.js test",
+        "lint": "node Makefile.js lint",
+        "release": "eslint-release",
+        "ci-release": "eslint-ci-release",
+        "gh-release": "eslint-gh-release",
+        "alpharelease": "eslint-prerelease alpha",
+        "betarelease": "eslint-prerelease beta"
+      },
+      "files": [
+        "LICENSE",
+        "README.md",
+        "lib"
+      ],
+      "dependencies": {
+        "esrecurse": "^4.1.0",
+        "estraverse": "^4.1.1"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "eslint": "^3.15.0",
+        "eslint-config-eslint": "^4.0.0",
+        "eslint-release": "^0.11.1",
+        "espree": "^3.1.1",
+        "istanbul": "^0.4.5",
+        "mocha": "^3.2.0",
+        "npm-license": "^0.3.3",
+        "shelljs": "^0.7.6",
+        "typescript": "~2.0.10",
+        "typescript-eslint-parser": "^1.0.0"
+      },
+      "readmeFilename": "README.md",
+      "gitHead": "11e660c176fb0d10b794b559feece89a9b8dafd5",
+      "_id": "eslint-scope@4.0.0-alpha.0",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.3",
+      "_npmUser": {
+        "name": "eslint",
+        "email": "nicholas+eslint@nczconsulting.com"
+      },
+      "dist": {
+        "shasum": "56d64aa6db13023373e3ad70b5c6cf40c8fe40b9",
+        "size": 15701,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/eslint-scope/-/eslint-scope-4.0.0-alpha.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "eslint",
+          "email": "nicholas+eslint@nczconsulting.com"
+        },
+        {
+          "name": "ivolodin",
+          "email": "ivolodin@gmail.com"
+        },
+        {
+          "name": "nzakas",
+          "email": "nicholas@nczconsulting.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-scope_4.0.0-alpha.0_1524880037947_0.5190939794797749"
+      },
+      "_hasShrinkwrap": false,
+      "publish_time": 1524880038036,
+      "_cnpm_publish_time": 1524880038036
+    },
+    "4.0.0-rc.0": {
+      "name": "eslint-scope",
+      "description": "ECMAScript scope analyzer for ESLint",
+      "homepage": "http://github.com/eslint/eslint-scope",
+      "main": "lib/index.js",
+      "version": "4.0.0-rc.0",
+      "engines": {
+        "node": ">=4.0.0"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eslint/eslint-scope.git"
+      },
+      "bugs": {
+        "url": "https://github.com/eslint/eslint-scope/issues"
+      },
+      "license": "BSD-2-Clause",
+      "scripts": {
+        "test": "node Makefile.js test",
+        "lint": "node Makefile.js lint",
+        "release": "eslint-release",
+        "ci-release": "eslint-ci-release",
+        "gh-release": "eslint-gh-release",
+        "alpharelease": "eslint-prerelease alpha",
+        "betarelease": "eslint-prerelease beta",
+        "rcrelease": "eslint-prerelease rc"
+      },
+      "files": [
+        "LICENSE",
+        "README.md",
+        "lib"
+      ],
+      "dependencies": {
+        "esrecurse": "^4.1.0",
+        "estraverse": "^4.1.1"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "eslint": "^3.15.0",
+        "eslint-config-eslint": "^4.0.0",
+        "eslint-release": "^0.11.1",
+        "espree": "^3.1.1",
+        "istanbul": "^0.4.5",
+        "mocha": "^3.2.0",
+        "npm-license": "^0.3.3",
+        "shelljs": "^0.7.6",
+        "typescript": "~2.0.10",
+        "typescript-eslint-parser": "^1.0.0"
+      },
+      "readmeFilename": "README.md",
+      "gitHead": "35e53021307b0393586f4104c9e3441231698478",
+      "_id": "eslint-scope@4.0.0-rc.0",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.3",
+      "_npmUser": {
+        "name": "eslint",
+        "email": "nicholas+eslint@nczconsulting.com"
+      },
+      "dist": {
+        "shasum": "90b7e7ed231c13956c3cb9cc018e96156e8cc6c6",
+        "size": 15793,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/eslint-scope/-/eslint-scope-4.0.0-rc.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "eslint",
+          "email": "nicholas+eslint@nczconsulting.com"
+        },
+        {
+          "name": "ivolodin",
+          "email": "ivolodin@gmail.com"
+        },
+        {
+          "name": "nzakas",
+          "email": "nicholas@nczconsulting.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-scope_4.0.0-rc.0_1528559957103_0.13597996259583023"
+      },
+      "_hasShrinkwrap": false,
+      "publish_time": 1528559957350,
+      "_cnpm_publish_time": 1528559957350
+    },
+    "4.0.0": {
+      "name": "eslint-scope",
+      "description": "ECMAScript scope analyzer for ESLint",
+      "homepage": "http://github.com/eslint/eslint-scope",
+      "main": "lib/index.js",
+      "version": "4.0.0",
+      "engines": {
+        "node": ">=4.0.0"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eslint/eslint-scope.git"
+      },
+      "bugs": {
+        "url": "https://github.com/eslint/eslint-scope/issues"
+      },
+      "license": "BSD-2-Clause",
+      "scripts": {
+        "test": "node Makefile.js test",
+        "lint": "node Makefile.js lint",
+        "release": "eslint-release",
+        "ci-release": "eslint-ci-release",
+        "gh-release": "eslint-gh-release",
+        "alpharelease": "eslint-prerelease alpha",
+        "betarelease": "eslint-prerelease beta",
+        "rcrelease": "eslint-prerelease rc"
+      },
+      "files": [
+        "LICENSE",
+        "README.md",
+        "lib"
+      ],
+      "dependencies": {
+        "esrecurse": "^4.1.0",
+        "estraverse": "^4.1.1"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "eslint": "^3.15.0",
+        "eslint-config-eslint": "^4.0.0",
+        "eslint-release": "^0.11.1",
+        "espree": "^3.1.1",
+        "istanbul": "^0.4.5",
+        "mocha": "^3.2.0",
+        "npm-license": "^0.3.3",
+        "shelljs": "^0.7.6",
+        "typescript": "~2.0.10",
+        "typescript-eslint-parser": "^1.0.0"
+      },
+      "gitHead": "3e69fdcf102082f3b3c419d0864d7ed90323f4ca",
+      "_id": "eslint-scope@4.0.0",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.3",
+      "_npmUser": {
+        "name": "eslint",
+        "email": "nicholas+eslint@nczconsulting.com"
+      },
+      "dist": {
+        "shasum": "50bf3071e9338bcdc43331794a0cb533f0136172",
+        "size": 15790,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/eslint-scope/-/eslint-scope-4.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "eslint",
+          "email": "nicholas+eslint@nczconsulting.com"
+        },
+        {
+          "name": "ivolodin",
+          "email": "ivolodin@gmail.com"
+        },
+        {
+          "name": "nzakas",
+          "email": "nicholas@nczconsulting.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-scope_4.0.0_1529613701348_0.3133796876769781"
+      },
+      "_hasShrinkwrap": false,
+      "publish_time": 1529613701408,
+      "_cnpm_publish_time": 1529613701408
+    },
+    "3.7.2": {
+      "bugs": {
+        "url": "https://github.com/eslint/eslint-scope/issues"
+      },
+      "bundleDependencies": false,
+      "dependencies": {
+        "esrecurse": "^4.1.0",
+        "estraverse": "^4.1.1"
+      },
+      "deprecated": false,
+      "description": "ECMAScript scope analyzer for ESLint",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "eslint": "^3.15.0",
+        "eslint-config-eslint": "^4.0.0",
+        "eslint-release": "^0.10.1",
+        "espree": "^3.1.1",
+        "istanbul": "^0.4.5",
+        "mocha": "^3.2.0",
+        "npm-license": "^0.3.3",
+        "shelljs": "^0.7.6",
+        "typescript": "~2.0.10",
+        "typescript-eslint-parser": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=4.0.0"
+      },
+      "files": [
+        "LICENSE",
+        "README.md",
+        "lib"
+      ],
+      "homepage": "http://github.com/eslint/eslint-scope",
+      "license": "BSD-2-Clause",
+      "main": "lib/index.js",
+      "name": "eslint-scope",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eslint/eslint-scope.git"
+      },
+      "scripts": {
+        "alpharelease": "eslint-prerelease alpha",
+        "betarelease": "eslint-prerelease beta",
+        "ci-release": "eslint-ci-release",
+        "gh-release": "eslint-gh-release",
+        "postinstall": "node ./lib/build.js",
+        "lint": "node Makefile.js lint",
+        "release": "eslint-release",
+        "test": "node Makefile.js test"
+      },
+      "version": "3.7.2",
+      "_id": "eslint-scope@3.7.2",
+      "_npmVersion": "6.1.0",
+      "_nodeVersion": "8.11.3",
+      "_npmUser": {
+        "name": "ivolodin",
+        "email": "ivolodin@gmail.com"
+      },
+      "dist": {
+        "shasum": "59152c94e2e2cbf64c03b8d3bdc5072a39d54043",
+        "size": 15898,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/eslint-scope/-/eslint-scope-3.7.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "eslint",
+          "email": "nicholas+eslint@nczconsulting.com"
+        },
+        {
+          "name": "ivolodin",
+          "email": "ivolodin@gmail.com"
+        },
+        {
+          "name": "nzakas",
+          "email": "nicholas@nczconsulting.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-scope_3.7.2_1531392000403_0.4119562056209347"
+      },
+      "_hasShrinkwrap": false,
+      "publish_time": 1531392000478,
+      "_cnpm_publish_time": 1531392000478
+    },
+    "3.7.3": {
+      "name": "eslint-scope",
+      "description": "ECMAScript scope analyzer for ESLint",
+      "homepage": "http://github.com/eslint/eslint-scope",
+      "main": "lib/index.js",
+      "version": "3.7.3",
+      "engines": {
+        "node": ">=4.0.0"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eslint/eslint-scope.git"
+      },
+      "bugs": {
+        "url": "https://github.com/eslint/eslint-scope/issues"
+      },
+      "license": "BSD-2-Clause",
+      "scripts": {
+        "test": "node Makefile.js test",
+        "lint": "node Makefile.js lint",
+        "release": "eslint-release",
+        "ci-release": "eslint-ci-release",
+        "gh-release": "eslint-gh-release",
+        "alpharelease": "eslint-prerelease alpha",
+        "betarelease": "eslint-prerelease beta"
+      },
+      "files": [
+        "LICENSE",
+        "README.md",
+        "lib"
+      ],
+      "dependencies": {
+        "esrecurse": "^4.1.0",
+        "estraverse": "^4.1.1"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "eslint": "^3.15.0",
+        "eslint-config-eslint": "^4.0.0",
+        "eslint-release": "^0.10.1",
+        "espree": "^3.1.1",
+        "istanbul": "^0.4.5",
+        "mocha": "^3.2.0",
+        "npm-license": "^0.3.3",
+        "shelljs": "^0.7.6",
+        "typescript": "~2.0.10",
+        "typescript-eslint-parser": "^1.0.0"
+      },
+      "readmeFilename": "README.md",
+      "gitHead": "cded04f8ec4496f61dfdd92726c2f6a23042f49d",
+      "_id": "eslint-scope@3.7.3",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.11.3",
+      "_npmUser": {
+        "name": "not-an-aardvark",
+        "email": "teddy.katz@gmail.com"
+      },
+      "dist": {
+        "shasum": "bb507200d3d17f60247636160b4826284b108535",
+        "size": 15613,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/eslint-scope/-/eslint-scope-3.7.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "eslint",
+          "email": "nicholas+eslint@nczconsulting.com"
+        },
+        {
+          "name": "ivolodin",
+          "email": "ivolodin@gmail.com"
+        },
+        {
+          "name": "not-an-aardvark",
+          "email": "notaardvark@gmail.com"
+        },
+        {
+          "name": "nzakas",
+          "email": "nicholas@nczconsulting.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-scope_3.7.3_1531417282379_0.35074445751082384"
+      },
+      "_hasShrinkwrap": false,
+      "publish_time": 1531417282504,
+      "_cnpm_publish_time": 1531417282504
+    }
+  },
+  "dist-tags": {
+    "latest": "4.0.0",
+    "next": "4.0.0-rc.0",
+    "v3-latest": "3.7.3"
+  },
+  "_rev": "3290-029d16b4c54a8718",
+  "readme": "# ESLint Scope\n\nESLint Scope is the [ECMAScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm) scope analyzer used in ESLint. It is a fork of [escope](http://github.com/estools/escope).\n\n## Usage\n\nInstall:\n\n```\nnpm i eslint-scope --save\n```\n\nExample:\n\n```js\nvar eslintScope = require('eslint-scope');\nvar espree = require('espree');\nvar estraverse = require('estraverse');\n\nvar ast = espree.parse(code);\nvar scopeManager = eslintScope.analyze(ast);\n\nvar currentScope = scopeManager.acquire(ast);   // global scope\n\nestraverse.traverse(ast, {\n    enter: function(node, parent) {\n        // do stuff\n\n        if (/Function/.test(node.type)) {\n            currentScope = scopeManager.acquire(node);  // get current function scope\n        }\n    },\n    leave: function(node, parent) {\n        if (/Function/.test(node.type)) {\n            currentScope = currentScope.upper;  // set to parent scope\n        }\n\n        // do stuff\n    }\n});\n```\n\n## Contributing\n\nIssues and pull requests will be triaged and responded to as quickly as possible. We operate under the [ESLint Contributor Guidelines](http://eslint.org/docs/developer-guide/contributing), so please be sure to read them before contributing. If you're not sure where to dig in, check out the [issues](https://github.com/eslint/eslint-scope/issues).\n\n## Build Commands\n\n* `npm test` - run all linting and tests\n* `npm run lint` - run all linting\n\n## License\n\nESLint Scope is licensed under a permissive BSD 2-clause license.",
+  "time": {
+    "modified": "2018-07-12T17:41:34.000Z",
+    "created": "2017-03-17T22:10:11.109Z",
+    "4.0.0": "2018-06-21T20:41:41.408Z",
+    "4.0.0-rc.0": "2018-06-09T15:59:17.350Z",
+    "4.0.0-alpha.0": "2018-04-28T01:47:18.036Z",
+    "3.7.1": "2017-04-12T21:13:31.158Z",
+    "3.7.0": "2017-03-17T22:10:11.109Z",
+    "3.7.2": "2018-07-12T10:40:00.478Z",
+    "3.7.3": "2018-07-12T17:41:22.504Z"
+  },
+  "_attachments": {}
+}

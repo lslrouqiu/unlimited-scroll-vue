@@ -1,0 +1,708 @@
+{
+  "name": "load-json-file",
+  "versions": {
+    "1.1.0": {
+      "name": "load-json-file",
+      "version": "1.1.0",
+      "description": "Read and parse a JSON file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/load-json-file"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "json",
+        "read",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load"
+      ],
+      "dependencies": {
+        "graceful-fs": "^4.1.2",
+        "parse-json": "^2.2.0",
+        "pify": "^2.0.0",
+        "pinkie-promise": "^2.0.0",
+        "strip-bom": "^2.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "xo": {
+        "ignores": [
+          "test.js"
+        ]
+      },
+      "gitHead": "115157a417380d3160da418d4ff25bb33b0051eb",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/load-json-file",
+      "_id": "load-json-file@1.1.0",
+      "_shasum": "956905708d58b4bab4c2261b04f59f31c99374c0",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.1",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "956905708d58b4bab4c2261b04f59f31c99374c0",
+        "size": 1825,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/load-json-file/-/load-json-file-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {},
+      "publish_time": 1447529426909,
+      "_cnpm_publish_time": 1447529426909
+    },
+    "1.0.1": {
+      "name": "load-json-file",
+      "version": "1.0.1",
+      "description": "Read and parse a JSON file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/load-json-file"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "json",
+        "read",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load"
+      ],
+      "dependencies": {
+        "graceful-fs": "^4.1.2",
+        "parse-json": "^2.2.0",
+        "pify": "^2.0.0",
+        "pinkie-promise": "^1.0.0",
+        "strip-bom": "^2.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "gitHead": "3735e52cca5cb3fc459786ac35db13b7142ee349",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/load-json-file",
+      "_id": "load-json-file@1.0.1",
+      "_shasum": "d24e14be27f68a6aec0f82365b23e1014603fc19",
+      "_from": ".",
+      "_npmVersion": "2.11.3",
+      "_nodeVersion": "0.12.7",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "d24e14be27f68a6aec0f82365b23e1014603fc19",
+        "size": 1806,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/load-json-file/-/load-json-file-1.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {},
+      "publish_time": 1441353186716,
+      "_cnpm_publish_time": 1441353186716
+    },
+    "1.0.0": {
+      "name": "load-json-file",
+      "version": "1.0.0",
+      "description": "Read and parse a JSON file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "json",
+        "read",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load"
+      ],
+      "dependencies": {
+        "graceful-fs": "^4.1.2",
+        "parse-json": "^2.2.0",
+        "pify": "^1.1.0",
+        "pinkie-promise": "^1.0.0",
+        "strip-bom": "^2.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "gitHead": "585e33ee885778ef51f1bc23d019a409050e88a3",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/load-json-file#readme",
+      "_id": "load-json-file@1.0.0",
+      "_shasum": "2c73a18a5f862dece86e85225815ac512ff97c63",
+      "_from": ".",
+      "_npmVersion": "2.13.3",
+      "_nodeVersion": "3.0.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "2c73a18a5f862dece86e85225815ac512ff97c63",
+        "size": 1805,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/load-json-file/-/load-json-file-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {},
+      "publish_time": 1441176098200,
+      "_cnpm_publish_time": 1441176098200
+    },
+    "2.0.0": {
+      "name": "load-json-file",
+      "version": "2.0.0",
+      "description": "Read and parse a JSON file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=4"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "read",
+        "json",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load"
+      ],
+      "dependencies": {
+        "graceful-fs": "^4.1.2",
+        "parse-json": "^2.2.0",
+        "pify": "^2.0.0",
+        "strip-bom": "^3.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "xo": {
+        "esnext": true
+      },
+      "gitHead": "49620f12bce627dc2459a08f5ef18cd2ff151eb2",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/load-json-file#readme",
+      "_id": "load-json-file@2.0.0",
+      "_shasum": "7947e42149af80d696cbf797bcaabcfe1fe29ca8",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "7947e42149af80d696cbf797bcaabcfe1fe29ca8",
+        "size": 1750,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/load-json-file/-/load-json-file-2.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/load-json-file-2.0.0.tgz_1462036668887_0.931434569414705"
+      },
+      "directories": {},
+      "publish_time": 1462036669311,
+      "_cnpm_publish_time": 1462036669311
+    },
+    "3.0.0": {
+      "name": "load-json-file",
+      "version": "3.0.0",
+      "description": "Read and parse a JSON file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=4"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "read",
+        "json",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load"
+      ],
+      "dependencies": {
+        "graceful-fs": "^4.1.2",
+        "parse-json": "^3.0.0",
+        "pify": "^2.0.0",
+        "strip-bom": "^3.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "xo": {
+        "esnext": true
+      },
+      "gitHead": "6181ef44ccdc4dc94fce1859d446d23d5ff53f75",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/load-json-file#readme",
+      "_id": "load-json-file@3.0.0",
+      "_shasum": "7eb3735d983a7ed2262ade4ff769af5369c5c440",
+      "_from": ".",
+      "_npmVersion": "2.15.11",
+      "_nodeVersion": "4.8.3",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "7eb3735d983a7ed2262ade4ff769af5369c5c440",
+        "size": 1732,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/load-json-file/-/load-json-file-3.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/load-json-file-3.0.0.tgz_1503188282582_0.7917490075342357"
+      },
+      "directories": {},
+      "publish_time": 1503188282755,
+      "_hasShrinkwrap": false,
+      "_cnpm_publish_time": 1503188282755
+    },
+    "4.0.0": {
+      "name": "load-json-file",
+      "version": "4.0.0",
+      "description": "Read and parse a JSON file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=4"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "read",
+        "json",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load"
+      ],
+      "dependencies": {
+        "graceful-fs": "^4.1.2",
+        "parse-json": "^4.0.0",
+        "pify": "^3.0.0",
+        "strip-bom": "^3.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "xo": {
+        "esnext": true
+      },
+      "gitHead": "633ec57b4d10a4bcc0e5fb63296ff9e6e68924da",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/load-json-file#readme",
+      "_id": "load-json-file@4.0.0",
+      "_shasum": "2f5f45ab91e33216234fd53adab668eb4ec0993b",
+      "_from": ".",
+      "_npmVersion": "2.15.11",
+      "_nodeVersion": "4.8.4",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "2f5f45ab91e33216234fd53adab668eb4ec0993b",
+        "size": 1733,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/load-json-file/-/load-json-file-4.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/load-json-file-4.0.0.tgz_1509782229082_0.7325113639235497"
+      },
+      "directories": {},
+      "publish_time": 1509782229197,
+      "_hasShrinkwrap": false,
+      "_cnpm_publish_time": 1509782229197
+    },
+    "5.0.0": {
+      "name": "load-json-file",
+      "version": "5.0.0",
+      "description": "Read and parse a JSON file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=6"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "read",
+        "json",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load"
+      ],
+      "dependencies": {
+        "graceful-fs": "^4.1.2",
+        "parse-json": "^4.0.0",
+        "pify": "^3.0.0",
+        "strip-bom": "^3.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "gitHead": "8149bcbde096cb8ac9328091c06f11f83a04e569",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/load-json-file#readme",
+      "_id": "load-json-file@5.0.0",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.11.1",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "5b5ef7cb6e1e337408e02fe01fe679ccc0cd18d5",
+        "size": 1987,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/load-json-file/-/load-json-file-5.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/load-json-file_5.0.0_1525593994579_0.8980414842921527"
+      },
+      "_hasShrinkwrap": false,
+      "publish_time": 1525593994678,
+      "_cnpm_publish_time": 1525593994678
+    },
+    "5.1.0": {
+      "name": "load-json-file",
+      "version": "5.1.0",
+      "description": "Read and parse a JSON file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=6"
+      },
+      "scripts": {
+        "test": "xo && ava && tsd-check"
+      },
+      "keywords": [
+        "read",
+        "json",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load"
+      ],
+      "dependencies": {
+        "graceful-fs": "^4.1.2",
+        "parse-json": "^4.0.0",
+        "pify": "^3.0.0",
+        "strip-bom": "^3.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "tsd-check": "^0.2.1",
+        "xo": "*"
+      },
+      "gitHead": "adea38e6d70c131fb40188b45a748a05b551751e",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/load-json-file#readme",
+      "_id": "load-json-file@5.1.0",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.11.4",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "c062f048e0ee556bf7f535bb16f6e45bb9d06b18",
+        "size": 2337,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/load-json-file/-/load-json-file-5.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/load-json-file_5.1.0_1537248117214_0.07735695895334649"
+      },
+      "_hasShrinkwrap": false,
+      "publish_time": 1537248117311,
+      "_cnpm_publish_time": 1537248117311
+    },
+    "5.2.0": {
+      "name": "load-json-file",
+      "version": "5.2.0",
+      "description": "Read and parse a JSON file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=6"
+      },
+      "scripts": {
+        "test": "xo && ava && tsd-check"
+      },
+      "keywords": [
+        "read",
+        "json",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load"
+      ],
+      "dependencies": {
+        "graceful-fs": "^4.1.2",
+        "parse-json": "^4.0.0",
+        "pify": "^3.0.0",
+        "strip-bom": "^3.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "tsd-check": "^0.2.1",
+        "xo": "*"
+      },
+      "gitHead": "ebe5060c5613b20cbfa3188dfa2f938b25529941",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/load-json-file#readme",
+      "_id": "load-json-file@5.2.0",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "1553627a18bf7b08cd7ec232d63981239085a578",
+        "size": 2327,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/load-json-file/-/load-json-file-5.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/load-json-file_5.2.0_1549966166847_0.641299810931989"
+      },
+      "_hasShrinkwrap": false,
+      "publish_time": 1549966166991,
+      "_cnpm_publish_time": 1549966166991
+    }
+  },
+  "dist-tags": {
+    "latest": "5.2.0"
+  },
+  "_rev": "7156-fb48946ed2e34565",
+  "readme": "# load-json-file [![Build Status](https://travis-ci.org/sindresorhus/load-json-file.svg?branch=master)](https://travis-ci.org/sindresorhus/load-json-file)\n\n> Read and parse a JSON file\n\n[Strips UTF-8 BOM](https://github.com/sindresorhus/strip-bom), uses [`graceful-fs`](https://github.com/isaacs/node-graceful-fs), and throws more [helpful JSON errors](https://github.com/sindresorhus/parse-json).\n\n\n## Install\n\n```\n$ npm install load-json-file\n```\n\n\n## Usage\n\n```js\nconst loadJsonFile = require('load-json-file');\n\nloadJsonFile('foo.json').then(json => {\n\tconsole.log(json);\n\t//=> {foo: true}\n});\n```\n\n\n## API\n\n### loadJsonFile(filePath, [options])\n\nReturns a promise for the parsed JSON.\n\n### loadJsonFile.sync(filepath, [options])\n\nReturns the parsed JSON.\n\n#### options\n\nType: `Object`\n\n##### beforeParse\n\nType: `Function`\n\nApplies a function to the JSON string before parsing.\n\n##### reviver\n\nType: `Function`\n\nPrescribes how the value originally produced by parsing is transformed, before being returned. See the [`JSON.parse` docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#Using_the_reviver_parameter) for more.\n\n\n## Related\n\n- [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)",
+  "time": {
+    "modified": "2019-02-12T10:37:28.000Z",
+    "created": "2015-09-02T06:41:38.200Z",
+    "5.0.0": "2018-05-06T08:06:34.678Z",
+    "4.0.0": "2017-11-04T07:57:09.197Z",
+    "3.0.0": "2017-08-20T00:18:02.755Z",
+    "2.0.0": "2016-04-30T17:17:49.311Z",
+    "1.1.0": "2015-11-14T19:30:26.909Z",
+    "1.0.1": "2015-09-04T07:53:06.716Z",
+    "1.0.0": "2015-09-02T06:41:38.200Z",
+    "5.1.0": "2018-09-18T05:21:57.311Z",
+    "5.2.0": "2019-02-12T10:09:26.991Z"
+  },
+  "_attachments": {}
+}

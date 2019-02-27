@@ -1,0 +1,214 @@
+{
+  "name": "is-path-cwd",
+  "versions": {
+    "1.0.0": {
+      "name": "is-path-cwd",
+      "version": "1.0.0",
+      "description": "Check if a path is CWD",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/is-path-cwd"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "http://sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "mocha"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "path",
+        "cwd",
+        "pwd",
+        "check",
+        "filepath",
+        "file",
+        "folder"
+      ],
+      "devDependencies": {
+        "mocha": "*"
+      },
+      "gitHead": "f71d4ecaa43bfe23c9cb35af6bf31e6b5b3f04eb",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/is-path-cwd/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/is-path-cwd",
+      "_id": "is-path-cwd@1.0.0",
+      "_shasum": "d225ec23132e89edd38fda767472e62e65f1106d",
+      "_from": ".",
+      "_npmVersion": "1.4.21",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "d225ec23132e89edd38fda767472e62e65f1106d",
+        "size": 745,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/is-path-cwd/-/is-path-cwd-1.0.0.tgz"
+      },
+      "directories": {},
+      "publish_time": 1408009657874,
+      "_cnpm_publish_time": 1408009657874
+    },
+    "0.1.0": {
+      "name": "is-path-cwd",
+      "version": "0.1.0",
+      "description": "Check if a path is CWD",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/sindresorhus/is-path-cwd"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "http://sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "mocha"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "path",
+        "cwd",
+        "pwd",
+        "check",
+        "filepath",
+        "file",
+        "folder"
+      ],
+      "devDependencies": {
+        "mocha": "*"
+      },
+      "bugs": {
+        "url": "https://github.com/sindresorhus/is-path-cwd/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/is-path-cwd",
+      "_id": "is-path-cwd@0.1.0",
+      "_shasum": "df3c09a7cab10bd40b9d1cdfae485bd882d4b1ab",
+      "_from": ".",
+      "_npmVersion": "1.4.9",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "df3c09a7cab10bd40b9d1cdfae485bd882d4b1ab",
+        "size": 743,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/is-path-cwd/-/is-path-cwd-0.1.0.tgz"
+      },
+      "directories": {},
+      "publish_time": 1403171597658,
+      "_cnpm_publish_time": 1403171597658
+    },
+    "2.0.0": {
+      "name": "is-path-cwd",
+      "version": "2.0.0",
+      "description": "Check if a path is CWD",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/is-path-cwd.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=6"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "path",
+        "cwd",
+        "pwd",
+        "check",
+        "filepath",
+        "file",
+        "folder"
+      ],
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "gitHead": "0ffd9c312b517b0067597e369d3e370361263578",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/is-path-cwd/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/is-path-cwd#readme",
+      "_id": "is-path-cwd@2.0.0",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "d4777a8e227a00096a31f030db3770f84b116c02",
+        "size": 1376,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/is-path-cwd/-/is-path-cwd-2.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/is-path-cwd_2.0.0_1521732970847_0.6802231486154835"
+      },
+      "_hasShrinkwrap": false,
+      "publish_time": 1521732970886,
+      "_cnpm_publish_time": 1521732970886
+    }
+  },
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "_rev": "5868-3637ebe5ee61cf94",
+  "readme": "# is-path-cwd [![Build Status](https://travis-ci.org/sindresorhus/is-path-cwd.svg?branch=master)](https://travis-ci.org/sindresorhus/is-path-cwd)\n\n> Check if a path is [CWD](https://en.wikipedia.org/wiki/Working_directory)\n\n\n## Install\n\n```\n$ npm install is-path-cwd\n```\n\n\n## Usage\n\n```js\nconst isPathCwd = require('is-path-cwd');\n\nisPathCwd(process.cwd());\n//=> true\n\nisPathCwd('unicorn');\n//=> false\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)",
+  "time": {
+    "modified": "2018-03-22T15:36:35.000Z",
+    "created": "2014-06-19T09:53:17.658Z",
+    "2.0.0": "2018-03-22T15:36:10.886Z",
+    "1.0.0": "2014-08-14T09:47:37.874Z",
+    "0.1.0": "2014-06-19T09:53:17.658Z"
+  },
+  "_attachments": {}
+}

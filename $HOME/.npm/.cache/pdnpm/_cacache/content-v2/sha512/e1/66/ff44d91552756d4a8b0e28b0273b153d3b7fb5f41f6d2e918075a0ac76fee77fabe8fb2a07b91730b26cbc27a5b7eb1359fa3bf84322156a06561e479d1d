@@ -1,0 +1,484 @@
+{
+  "name": "read-pkg",
+  "versions": {
+    "1.1.0": {
+      "name": "read-pkg",
+      "version": "1.1.0",
+      "description": "Read a package.json file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/read-pkg"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "json",
+        "read",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load",
+        "pkg",
+        "package",
+        "normalize"
+      ],
+      "dependencies": {
+        "load-json-file": "^1.0.0",
+        "normalize-package-data": "^2.3.2",
+        "path-type": "^1.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "gitHead": "9448d32b2ebcd65fc0547def3cfe5b28ef522e68",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/read-pkg/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/read-pkg",
+      "_id": "read-pkg@1.1.0",
+      "_shasum": "f5ffaa5ecd29cb31c0474bca7d756b6bb29e3f28",
+      "_from": ".",
+      "_npmVersion": "2.13.3",
+      "_nodeVersion": "3.0.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "f5ffaa5ecd29cb31c0474bca7d756b6bb29e3f28",
+        "size": 2074,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/read-pkg/-/read-pkg-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {},
+      "publish_time": 1441446710133,
+      "_cnpm_publish_time": 1441446710133
+    },
+    "1.0.0": {
+      "name": "read-pkg",
+      "version": "1.0.0",
+      "description": "Read a package.json file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/read-pkg.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "json",
+        "read",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load",
+        "pkg",
+        "package",
+        "normalize"
+      ],
+      "dependencies": {
+        "load-json-file": "^1.0.0",
+        "normalize-package-data": "^2.3.2"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "gitHead": "1ed9e57e3048285289547ea375eb7a5adabed1c4",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/read-pkg/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/read-pkg#readme",
+      "_id": "read-pkg@1.0.0",
+      "_shasum": "6199b5a0a9596f32eb83044e89400969587542de",
+      "_from": ".",
+      "_npmVersion": "2.13.3",
+      "_nodeVersion": "3.0.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "6199b5a0a9596f32eb83044e89400969587542de",
+        "size": 2009,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/read-pkg/-/read-pkg-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {},
+      "publish_time": 1441183671680,
+      "_cnpm_publish_time": 1441183671680
+    },
+    "2.0.0": {
+      "name": "read-pkg",
+      "version": "2.0.0",
+      "description": "Read a package.json file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/read-pkg.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=4"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "json",
+        "read",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load",
+        "pkg",
+        "package",
+        "normalize"
+      ],
+      "dependencies": {
+        "load-json-file": "^2.0.0",
+        "normalize-package-data": "^2.3.2",
+        "path-type": "^2.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "xo": {
+        "esnext": true
+      },
+      "gitHead": "c1664a2f42d1f1898b7648534576e6dcfa1f48c8",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/read-pkg/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/read-pkg#readme",
+      "_id": "read-pkg@2.0.0",
+      "_shasum": "8ef1c0623c6a6db0dc6713c4bfac46332b2368f8",
+      "_from": ".",
+      "_npmVersion": "2.15.9",
+      "_nodeVersion": "4.5.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "8ef1c0623c6a6db0dc6713c4bfac46332b2368f8",
+        "size": 2062,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/read-pkg/-/read-pkg-2.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/read-pkg-2.0.0.tgz_1475052271222_0.4820629544556141"
+      },
+      "directories": {},
+      "publish_time": 1475052271441,
+      "_cnpm_publish_time": 1475052271441
+    },
+    "3.0.0": {
+      "name": "read-pkg",
+      "version": "3.0.0",
+      "description": "Read a package.json file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/read-pkg.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=4"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "json",
+        "read",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load",
+        "pkg",
+        "package",
+        "normalize"
+      ],
+      "dependencies": {
+        "load-json-file": "^4.0.0",
+        "normalize-package-data": "^2.3.2",
+        "path-type": "^3.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "gitHead": "7eb2f6b7b50618c28f1bf2db8b895a453552cd9c",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/read-pkg/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/read-pkg#readme",
+      "_id": "read-pkg@3.0.0",
+      "_shasum": "9cbc686978fee65d16c00e2b19c237fcf6e38389",
+      "_from": ".",
+      "_npmVersion": "2.15.11",
+      "_nodeVersion": "4.8.4",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "9cbc686978fee65d16c00e2b19c237fcf6e38389",
+        "size": 2040,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/read-pkg/-/read-pkg-3.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/read-pkg-3.0.0.tgz_1509782852512_0.4451334576588124"
+      },
+      "directories": {},
+      "publish_time": 1509782852640,
+      "_hasShrinkwrap": false,
+      "_cnpm_publish_time": 1509782852640
+    },
+    "4.0.1": {
+      "name": "read-pkg",
+      "version": "4.0.1",
+      "description": "Read a package.json file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/read-pkg.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=6"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "json",
+        "read",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load",
+        "pkg",
+        "package",
+        "normalize"
+      ],
+      "dependencies": {
+        "normalize-package-data": "^2.3.2",
+        "parse-json": "^4.0.0",
+        "pify": "^3.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "gitHead": "03b601f9f47a8c9930bbbb46380264babe987ced",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/read-pkg/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/read-pkg#readme",
+      "_id": "read-pkg@4.0.1",
+      "_shasum": "963625378f3e1c4d48c85872b5a6ec7d5d093237",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.14.3",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "963625378f3e1c4d48c85872b5a6ec7d5d093237",
+        "size": 1992,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/read-pkg/-/read-pkg-4.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/read-pkg_4.0.1_1529986259277_0.9099218668326017"
+      },
+      "_hasShrinkwrap": false,
+      "publish_time": 1529986259370,
+      "_cnpm_publish_time": 1529986259370
+    },
+    "4.0.0": {
+      "name": "read-pkg",
+      "version": "4.0.0",
+      "description": "Read a package.json file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/read-pkg.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=6"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "json",
+        "read",
+        "parse",
+        "file",
+        "fs",
+        "graceful",
+        "load",
+        "pkg",
+        "package",
+        "normalize"
+      ],
+      "dependencies": {
+        "normalize-package-data": "^2.3.2",
+        "parse-json": "^4.0.0",
+        "util.promisify": "^1.0.0"
+      },
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "gitHead": "8f30e19a5359111660e65d428d571ec4340814ae",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/read-pkg/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/read-pkg#readme",
+      "_id": "read-pkg@4.0.0",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.11.2",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "ee3801906504d73af4c9630ab1cd0cea8232e5c2",
+        "size": 1987,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/read-pkg/-/read-pkg-4.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/read-pkg_4.0.0_1529942790299_0.382594879990501"
+      },
+      "_hasShrinkwrap": false,
+      "publish_time": 1529942790381,
+      "_cnpm_publish_time": 1529942790381
+    }
+  },
+  "dist-tags": {
+    "latest": "4.0.1"
+  },
+  "_rev": "6654-4124c8eefe0fef14",
+  "readme": "# read-pkg [![Build Status](https://travis-ci.org/sindresorhus/read-pkg.svg?branch=master)](https://travis-ci.org/sindresorhus/read-pkg)\n\n> Read a package.json file\n\n\n## Why\n\n- [Gracefully handles filesystem issues](https://github.com/isaacs/node-graceful-fs)\n- [Throws more helpful JSON errors](https://github.com/sindresorhus/parse-json)\n- [Normalizes the data](https://github.com/npm/normalize-package-data#what-normalization-currently-entails)\n\n\n## Install\n\n```\n$ npm install read-pkg\n```\n\n\n## Usage\n\n```js\nconst readPkg = require('read-pkg');\n\n(async () => {\n\tconsole.log(await readPkg());\n\t//=> {name: 'read-pkg', ...}\n\n\tconsole.log(await readPkg({cwd: 'some-other-directory'});\n\t//=> {name: 'unicorn', ...}\n})();\n```\n\n\n## API\n\n### readPkg([options])\n\nReturns a `Promise` for the parsed JSON.\n\n### readPkg.sync([options])\n\nReturns the parsed JSON.\n\n#### options\n\nType: `Object`\n\n##### cwd\n\nType: `string`<br>\nDefault: `process.cwd()`\n\nCurrent working directory.\n\n##### normalize\n\nType: `boolean`<br>\nDefault: `true`\n\n[Normalize](https://github.com/npm/normalize-package-data#what-normalization-currently-entails) the package data.\n\n\n## Related\n\n- [read-pkg-up](https://github.com/sindresorhus/read-pkg-up) - Read the closest package.json file\n- [write-pkg](https://github.com/sindresorhus/write-pkg) - Write a `package.json` file\n- [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)",
+  "time": {
+    "modified": "2018-06-26T04:11:06.000Z",
+    "created": "2015-09-02T08:47:51.680Z",
+    "4.0.1": "2018-06-26T04:10:59.370Z",
+    "4.0.0": "2018-06-25T16:06:30.381Z",
+    "3.0.0": "2017-11-04T08:07:32.640Z",
+    "2.0.0": "2016-09-28T08:44:31.441Z",
+    "1.1.0": "2015-09-05T09:51:50.133Z",
+    "1.0.0": "2015-09-02T08:47:51.680Z"
+  },
+  "_attachments": {}
+}

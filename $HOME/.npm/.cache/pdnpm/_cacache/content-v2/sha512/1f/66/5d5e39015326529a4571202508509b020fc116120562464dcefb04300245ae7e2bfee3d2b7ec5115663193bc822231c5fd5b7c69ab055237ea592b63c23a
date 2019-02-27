@@ -1,0 +1,312 @@
+{
+  "name": "map-obj",
+  "versions": {
+    "1.0.1": {
+      "name": "map-obj",
+      "version": "1.0.1",
+      "description": "Map object keys and values into a new object",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/map-obj"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "node test.js"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "map",
+        "obj",
+        "object",
+        "key",
+        "keys",
+        "value",
+        "values",
+        "val",
+        "iterate",
+        "iterator"
+      ],
+      "devDependencies": {
+        "ava": "0.0.4"
+      },
+      "gitHead": "a4f2d49ae6b5f7c0e55130b49ab0412298b797bc",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/map-obj/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/map-obj",
+      "_id": "map-obj@1.0.1",
+      "_shasum": "d933ceb9205d82bdcf4886f6742bdc2b4dea146d",
+      "_from": ".",
+      "_npmVersion": "2.7.4",
+      "_nodeVersion": "0.12.2",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "d933ceb9205d82bdcf4886f6742bdc2b4dea146d",
+        "size": 1549,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/map-obj/-/map-obj-1.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {},
+      "publish_time": 1430589766655,
+      "_cnpm_publish_time": 1430589766655
+    },
+    "1.0.0": {
+      "name": "map-obj",
+      "version": "1.0.0",
+      "description": "Map object keys and values into a new object",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/map-obj"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "http://sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "node test.js"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "map",
+        "obj",
+        "object",
+        "key",
+        "keys",
+        "value",
+        "values",
+        "val",
+        "iterate"
+      ],
+      "devDependencies": {
+        "ava": "0.0.4"
+      },
+      "gitHead": "96c3c4363f3c7d192f33305884f129004f5c4bcb",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/map-obj/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/map-obj",
+      "_id": "map-obj@1.0.0",
+      "_shasum": "bcbdf6756758763c182daf79e18094a2f1c85766",
+      "_from": ".",
+      "_npmVersion": "2.1.2",
+      "_nodeVersion": "0.10.32",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "bcbdf6756758763c182daf79e18094a2f1c85766",
+        "size": 878,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/map-obj/-/map-obj-1.0.0.tgz"
+      },
+      "directories": {},
+      "publish_time": 1413114427079,
+      "_cnpm_publish_time": 1413114427079
+    },
+    "2.0.0": {
+      "name": "map-obj",
+      "version": "2.0.0",
+      "description": "Map object keys and values into a new object",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/map-obj.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=4"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "map",
+        "obj",
+        "object",
+        "key",
+        "keys",
+        "value",
+        "values",
+        "val",
+        "iterate",
+        "iterator",
+        "rename",
+        "modify",
+        "deep",
+        "recurse",
+        "recursive"
+      ],
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "xo": {
+        "esnext": true
+      },
+      "gitHead": "40ce3a8b7d419249a6c0d83031b5d3214b9bf8ed",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/map-obj/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/map-obj#readme",
+      "_id": "map-obj@2.0.0",
+      "_shasum": "a65cd29087a92598b8791257a523e021222ac1f9",
+      "_from": ".",
+      "_npmVersion": "2.15.9",
+      "_nodeVersion": "4.5.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "a65cd29087a92598b8791257a523e021222ac1f9",
+        "size": 2082,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/map-obj/-/map-obj-2.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/map-obj-2.0.0.tgz_1474089008506_0.09945452911779284"
+      },
+      "directories": {},
+      "publish_time": 1474089008778,
+      "_cnpm_publish_time": 1474089008778
+    },
+    "3.0.0": {
+      "name": "map-obj",
+      "version": "3.0.0",
+      "description": "Map object keys and values into a new object",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/map-obj.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=6"
+      },
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "map",
+        "obj",
+        "object",
+        "key",
+        "keys",
+        "value",
+        "values",
+        "val",
+        "iterate",
+        "iterator",
+        "rename",
+        "modify",
+        "deep",
+        "recurse",
+        "recursive"
+      ],
+      "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+      },
+      "gitHead": "4db51b6f5f6d2b617bc80bb66dd6a6e528dc4cb7",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/map-obj/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/map-obj#readme",
+      "_id": "map-obj@3.0.0",
+      "_npmVersion": "6.3.0",
+      "_nodeVersion": "8.11.3",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "4221cc62360f88c0735f9e7c0813bd889657f490",
+        "size": 2032,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/map-obj/-/map-obj-3.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/map-obj_3.0.0_1533710662889_0.49796460121473984"
+      },
+      "_hasShrinkwrap": false,
+      "publish_time": 1533710663091,
+      "_cnpm_publish_time": 1533710663091
+    }
+  },
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "_rev": "2608-c688fea7718af1f1",
+  "readme": "# map-obj [![Build Status](https://travis-ci.org/sindresorhus/map-obj.svg?branch=master)](https://travis-ci.org/sindresorhus/map-obj)\n\n> Map object keys and values into a new object\n\n\n## Install\n\n```\n$ npm install map-obj\n```\n\n\n## Usage\n\n```js\nconst mapObj = require('map-obj');\n\nconst newObject = mapObj({foo: 'bar'}, (key, value) => [value, key]);\n//=> {bar: 'foo'}\n```\n\n\n## API\n\n### mapObj(source, mapper, [options])\n\n#### source\n\nType: `Object`\n\nSource object to copy properties from.\n\n#### mapper\n\nType: `Function`\n\nMapping function.\n\n- It has signature `mapper(sourceKey, sourceValue, source)`.\n- It must return a two item array: `[targetKey, targetValue]`.\n\n#### options\n\nType: `Object`\n\n##### deep\n\nType: `boolean`<br>\nDefault: `false`\n\nRecurse nested objects and objects in arrays.\n\n##### target\n\nType: `Object`<br>\nDefault: `{}`\n\nTarget object to map properties on to.\n\n\n## Related\n\n- [filter-obj](https://github.com/sindresorhus/filter-obj) - Filter object keys and values into a new object\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)",
+  "time": {
+    "modified": "2018-08-08T06:44:37.000Z",
+    "created": "2014-10-12T11:47:07.079Z",
+    "2.0.0": "2016-09-17T05:10:08.778Z",
+    "1.0.1": "2015-05-02T18:02:46.655Z",
+    "1.0.0": "2014-10-12T11:47:07.079Z",
+    "3.0.0": "2018-08-08T06:44:23.091Z"
+  },
+  "_attachments": {}
+}

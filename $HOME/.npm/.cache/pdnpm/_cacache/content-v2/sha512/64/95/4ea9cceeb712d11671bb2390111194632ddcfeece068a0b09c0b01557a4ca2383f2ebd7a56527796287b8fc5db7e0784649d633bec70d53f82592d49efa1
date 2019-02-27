@@ -1,0 +1,668 @@
+{
+  "name": "fs-minipass",
+  "versions": {
+    "1.2.3": {
+      "name": "fs-minipass",
+      "version": "1.2.3",
+      "main": "index.js",
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "keywords": [],
+      "author": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "url": "http://blog.izs.me/"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/npm/fs-minipass.git"
+      },
+      "bugs": {
+        "url": "https://github.com/npm/fs-minipass/issues"
+      },
+      "homepage": "https://github.com/npm/fs-minipass#readme",
+      "description": "fs read and write streams based on minipass",
+      "dependencies": {
+        "minipass": "^2.2.1"
+      },
+      "devDependencies": {
+        "mutate-fs": "^2.0.1",
+        "tap": "^10.7.2"
+      },
+      "files": [
+        "index.js"
+      ],
+      "gitHead": "e91a395e3afcd0bf2cd541f0bce44ed7c3453c2e",
+      "_id": "fs-minipass@1.2.3",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.1",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "633ee214389dede91c4ec446a34891f964805973",
+        "size": 4165,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/fs-minipass/-/fs-minipass-1.2.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "isaacs",
+          "email": "i@izs.me"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/fs-minipass-1.2.3.tgz_1510653626637_0.4699037205427885"
+      },
+      "directories": {},
+      "publish_time": 1510653626779,
+      "_cnpm_publish_time": 1510653626779,
+      "_hasShrinkwrap": false
+    },
+    "1.2.2": {
+      "name": "fs-minipass",
+      "version": "1.2.2",
+      "main": "index.js",
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "keywords": [],
+      "author": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "url": "http://blog.izs.me/"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/npm/fs-minipass.git"
+      },
+      "bugs": {
+        "url": "https://github.com/npm/fs-minipass/issues"
+      },
+      "homepage": "https://github.com/npm/fs-minipass#readme",
+      "description": "fs read and write streams based on minipass",
+      "dependencies": {
+        "minipass": "^2.2.1"
+      },
+      "devDependencies": {
+        "mutate-fs": "^2.0.1",
+        "tap": "^10.7.2"
+      },
+      "files": [
+        "index.js"
+      ],
+      "gitHead": "d92c102fc08604e7d6a98c5352e41690994c79ca",
+      "_id": "fs-minipass@1.2.2",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.1",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "67827a40c3333c4c390baa11366cfe0fcb0130c4",
+        "size": 4057,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/fs-minipass/-/fs-minipass-1.2.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "isaacs",
+          "email": "i@izs.me"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/fs-minipass-1.2.2.tgz_1510650727795_0.11070904578082263"
+      },
+      "directories": {},
+      "publish_time": 1510650727989,
+      "_hasShrinkwrap": false,
+      "_cnpm_publish_time": 1510650727989
+    },
+    "1.2.1": {
+      "name": "fs-minipass",
+      "version": "1.2.1",
+      "main": "index.js",
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "keywords": [],
+      "author": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "url": "http://blog.izs.me/"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/npm/fs-minipass.git"
+      },
+      "bugs": {
+        "url": "https://github.com/npm/fs-minipass/issues"
+      },
+      "homepage": "https://github.com/npm/fs-minipass#readme",
+      "description": "fs read and write streams based on minipass",
+      "dependencies": {
+        "minipass": "^2.2.1"
+      },
+      "devDependencies": {
+        "mutate-fs": "^2.0.1",
+        "tap": "^10.7.2"
+      },
+      "files": [
+        "index.js"
+      ],
+      "gitHead": "aeacd89da6297f887df31ec1b8f512943fd14df3",
+      "_id": "fs-minipass@1.2.1",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "fc9eb3cbbb55f89734d6c4ac0471cc79a5f36085",
+        "size": 4054,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/fs-minipass/-/fs-minipass-1.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "isaacs",
+          "email": "i@izs.me"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/fs-minipass-1.2.1.tgz_1506027393008_0.3910524039529264"
+      },
+      "directories": {},
+      "publish_time": 1506027393162,
+      "_cnpm_publish_time": 1506027393162,
+      "_hasShrinkwrap": false
+    },
+    "1.2.0": {
+      "name": "fs-minipass",
+      "version": "1.2.0",
+      "main": "index.js",
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "keywords": [],
+      "author": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "url": "http://blog.izs.me/"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/npm/fs-minipass.git"
+      },
+      "bugs": {
+        "url": "https://github.com/npm/fs-minipass/issues"
+      },
+      "homepage": "https://github.com/npm/fs-minipass#readme",
+      "description": "fs read and write streams based on minipass",
+      "dependencies": {
+        "minipass": "^2.2.1"
+      },
+      "devDependencies": {
+        "mutate-fs": "^2.0.1",
+        "tap": "^10.7.2"
+      },
+      "gitHead": "5e70789fcec9ed007a2a8f1d54232eab72136d6e",
+      "_id": "fs-minipass@1.2.0",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.4.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "b5cfa375adb1bdb81672e3f2da7baeeca4edada1",
+        "size": 4164,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/fs-minipass/-/fs-minipass-1.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "isaacs",
+          "email": "i@izs.me"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/fs-minipass-1.2.0.tgz_1505677629351_0.8495220621116459"
+      },
+      "directories": {},
+      "publish_time": 1505677629505,
+      "_cnpm_publish_time": 1505677629505,
+      "_hasShrinkwrap": false
+    },
+    "1.1.2": {
+      "name": "fs-minipass",
+      "version": "1.1.2",
+      "main": "index.js",
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "keywords": [],
+      "author": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "url": "http://blog.izs.me/"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/npm/fs-minipass.git"
+      },
+      "bugs": {
+        "url": "https://github.com/npm/fs-minipass/issues"
+      },
+      "homepage": "https://github.com/npm/fs-minipass#readme",
+      "description": "fs read and write streams based on minipass",
+      "dependencies": {
+        "minipass": "^2.2.1"
+      },
+      "devDependencies": {
+        "mutate-fs": "^2.0.1",
+        "tap": "^10.7.2"
+      },
+      "gitHead": "679dfe3e95c40972d8bb50f82da24a284ac77925",
+      "_id": "fs-minipass@1.1.2",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.4.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "66882e22e81a1a63e668a309fe9515306c75574f",
+        "size": 3721,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/fs-minipass/-/fs-minipass-1.1.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "isaacs",
+          "email": "i@izs.me"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/fs-minipass-1.1.2.tgz_1505194529825_0.3317506497260183"
+      },
+      "directories": {},
+      "publish_time": 1505194529961,
+      "_hasShrinkwrap": false,
+      "_cnpm_publish_time": 1505194529961
+    },
+    "1.1.1": {
+      "name": "fs-minipass",
+      "version": "1.1.1",
+      "main": "index.js",
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "keywords": [],
+      "author": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "url": "http://blog.izs.me/"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/npm/fs-minipass.git"
+      },
+      "bugs": {
+        "url": "https://github.com/npm/fs-minipass/issues"
+      },
+      "homepage": "https://github.com/npm/fs-minipass#readme",
+      "description": "fs read and write streams based on minipass",
+      "dependencies": {
+        "minipass": "^2.2.1"
+      },
+      "devDependencies": {
+        "mutate-fs": "^2.0.1",
+        "tap": "^10.7.2"
+      },
+      "gitHead": "9d579c4c4e56668ccf4603d7901e8a5f79af678b",
+      "_id": "fs-minipass@1.1.1",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.4.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "950f318eb270bae23f9934fed8b2267780155a56",
+        "size": 3713,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/fs-minipass/-/fs-minipass-1.1.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "isaacs",
+          "email": "i@izs.me"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/fs-minipass-1.1.1.tgz_1505193966534_0.24331881944090128"
+      },
+      "directories": {},
+      "publish_time": 1505193966635,
+      "_hasShrinkwrap": false,
+      "_cnpm_publish_time": 1505193966635
+    },
+    "1.1.0": {
+      "name": "fs-minipass",
+      "version": "1.1.0",
+      "main": "index.js",
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "keywords": [],
+      "author": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "url": "http://blog.izs.me/"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/npm/fs-minipass.git"
+      },
+      "bugs": {
+        "url": "https://github.com/npm/fs-minipass/issues"
+      },
+      "homepage": "https://github.com/npm/fs-minipass#readme",
+      "description": "fs read and write streams based on minipass",
+      "dependencies": {
+        "minipass": "^2.2.1"
+      },
+      "devDependencies": {
+        "mutate-fs": "^2.0.1",
+        "tap": "^10.7.2"
+      },
+      "gitHead": "978cabc23940cf721b3b6e8dbe2a9528235f9808",
+      "_id": "fs-minipass@1.1.0",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.4.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "c060489adaf55ad9af690df378fd2a1d22c754dc",
+        "size": 3703,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/fs-minipass/-/fs-minipass-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "isaacs",
+          "email": "i@izs.me"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/fs-minipass-1.1.0.tgz_1505185388272_0.3607080793008208"
+      },
+      "directories": {},
+      "publish_time": 1505185388362,
+      "_cnpm_publish_time": 1505185388362,
+      "_hasShrinkwrap": false
+    },
+    "1.0.0": {
+      "name": "fs-minipass",
+      "version": "1.0.0",
+      "main": "index.js",
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "keywords": [],
+      "author": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "url": "http://blog.izs.me/"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/npm/fs-minipass.git"
+      },
+      "bugs": {
+        "url": "https://github.com/npm/fs-minipass/issues"
+      },
+      "homepage": "https://github.com/npm/fs-minipass#readme",
+      "description": "fs read and write streams based on minipass",
+      "dependencies": {
+        "minipass": "^2.2.1"
+      },
+      "devDependencies": {
+        "mutate-fs": "^2.0.1",
+        "tap": "^10.7.2"
+      },
+      "gitHead": "459e240fcd814de3967e7f2b9fdaf6b97acd5d46",
+      "_id": "fs-minipass@1.0.0",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.4.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "87f65ec75db23fcc6e8e907b6b68622d1b8b4f0e",
+        "size": 3488,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/fs-minipass/-/fs-minipass-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "isaacs",
+          "email": "i@izs.me"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/fs-minipass-1.0.0.tgz_1505105417453_0.1749916800763458"
+      },
+      "directories": {},
+      "publish_time": 1505105417617,
+      "_hasShrinkwrap": false,
+      "_cnpm_publish_time": 1505105417617
+    },
+    "1.2.5": {
+      "name": "fs-minipass",
+      "version": "1.2.5",
+      "main": "index.js",
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "keywords": [],
+      "author": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "url": "http://blog.izs.me/"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/npm/fs-minipass.git"
+      },
+      "bugs": {
+        "url": "https://github.com/npm/fs-minipass/issues"
+      },
+      "homepage": "https://github.com/npm/fs-minipass#readme",
+      "description": "fs read and write streams based on minipass",
+      "dependencies": {
+        "minipass": "^2.2.1"
+      },
+      "devDependencies": {
+        "mutate-fs": "^2.0.1",
+        "tap": "^10.7.2"
+      },
+      "files": [
+        "index.js"
+      ],
+      "gitHead": "fceb43535c348c9cd1ad08edb6c188e04850c245",
+      "_id": "fs-minipass@1.2.5",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "4.8.4",
+      "_npmUser": {
+        "name": "iarna",
+        "email": "me@re-becca.org"
+      },
+      "dist": {
+        "shasum": "06c277218454ec288df77ada54a03b8702aacb9d",
+        "size": 4200,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/fs-minipass/-/fs-minipass-1.2.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "iarna",
+          "email": "me@re-becca.org"
+        },
+        {
+          "name": "isaacs",
+          "email": "i@izs.me"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/fs-minipass-1.2.5.tgz_1515107144774_0.8260935051366687"
+      },
+      "directories": {},
+      "publish_time": 1515107144837,
+      "_hasShrinkwrap": false,
+      "_cnpm_publish_time": 1515107144837
+    },
+    "1.2.4": {
+      "name": "fs-minipass",
+      "version": "1.2.4",
+      "main": "index.js",
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "keywords": [],
+      "author": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "url": "http://blog.izs.me/"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/npm/fs-minipass.git"
+      },
+      "bugs": {
+        "url": "https://github.com/npm/fs-minipass/issues"
+      },
+      "homepage": "https://github.com/npm/fs-minipass#readme",
+      "description": "fs read and write streams based on minipass",
+      "dependencies": {
+        "minipass": "^2.2.1"
+      },
+      "devDependencies": {
+        "mutate-fs": "^2.0.1",
+        "tap": "^10.7.2"
+      },
+      "files": [
+        "index.js"
+      ],
+      "gitHead": "7b362fb8b0f9a2b5a2102a3829413afb91612ea3",
+      "_id": "fs-minipass@1.2.4",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "9.3.0",
+      "_npmUser": {
+        "name": "iarna",
+        "email": "me@re-becca.org"
+      },
+      "dist": {
+        "shasum": "14d44873225456e9d0ea40c0139795b677b7114f",
+        "size": 4225,
+        "noattachment": false,
+        "tarball": "http://npm.pandatv.com/fs-minipass/-/fs-minipass-1.2.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "iarna",
+          "email": "me@re-becca.org"
+        },
+        {
+          "name": "isaacs",
+          "email": "i@izs.me"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/fs-minipass-1.2.4.tgz_1515106362992_0.8212358288001269"
+      },
+      "directories": {},
+      "publish_time": 1515106363169,
+      "_hasShrinkwrap": false,
+      "_cnpm_publish_time": 1515106363169
+    }
+  },
+  "dist-tags": {
+    "latest": "1.2.5"
+  },
+  "time": {
+    "modified": "2018-01-18T01:17:14.000Z",
+    "created": "2017-09-11T04:50:17.617Z",
+    "1.2.5": "2018-01-04T23:05:44.837Z",
+    "1.2.4": "2018-01-04T22:52:43.169Z",
+    "1.2.3": "2017-11-14T10:00:26.779Z",
+    "1.2.2": "2017-11-14T09:12:07.989Z",
+    "1.2.1": "2017-09-21T20:56:33.162Z",
+    "1.2.0": "2017-09-17T19:47:09.505Z",
+    "1.1.2": "2017-09-12T05:35:29.961Z",
+    "1.1.1": "2017-09-12T05:26:06.635Z",
+    "1.1.0": "2017-09-12T03:03:08.362Z",
+    "1.0.0": "2017-09-11T04:50:17.617Z"
+  },
+  "_rev": "3899-ee35839244c0a668",
+  "readme": "# fs-minipass\n\nFilesystem streams based on [minipass](http://npm.im/minipass).\n\n4 classes are exported:\n\n- ReadStream\n- ReadStreamSync\n- WriteStream\n- WriteStreamSync\n\nWhen using `ReadStreamSync`, all of the data is made available\nimmediately upon consuming the stream.  Nothing is buffered in memory\nwhen the stream is constructed.  If the stream is piped to a writer,\nthen it will synchronously `read()` and emit data into the writer as\nfast as the writer can consume it.  (That is, it will respect\nbackpressure.)  If you call `stream.read()` then it will read the\nentire file and return the contents.\n\nWhen using `WriteStreamSync`, every write is flushed to the file\nsynchronously.  If your writes all come in a single tick, then it'll\nwrite it all out in a single tick.  It's as synchronous as you are.\n\nThe async versions work much like their node builtin counterparts,\nwith the exception of introducing significantly less Stream machinery\noverhead.\n\n## USAGE\n\nIt's just streams, you pipe them or read() them or write() to them.\n\n```js\nconst fsm = require('fs-minipass')\nconst readStream = new fsm.ReadStream('file.txt')\nconst writeStream = new fsm.WriteStream('output.txt')\nwriteStream.write('some file header or whatever\\n')\nreadStream.pipe(writeStream)\n```\n\n## ReadStream(path, options)\n\nPath string is required, but somewhat irrelevant if an open file\ndescriptor is passed in as an option.\n\nOptions:\n\n- `fd` Pass in a numeric file descriptor, if the file is already open.\n- `readSize` The size of reads to do, defaults to 16MB\n- `size` The size of the file, if known.  Prevents zero-byte read()\n  call at the end.\n- `autoClose` Set to `false` to prevent the file descriptor from being\n  closed when the file is done being read.\n\n## WriteStream(path, options)\n\nPath string is required, but somewhat irrelevant if an open file\ndescriptor is passed in as an option.\n\nOptions:\n\n- `fd` Pass in a numeric file descriptor, if the file is already open.\n- `mode` The mode to create the file with. Defaults to `0o666`.\n- `start` The position in the file to start reading.  If not\n  specified, then the file will start writing at position zero, and be\n  truncated by default.\n- `autoClose` Set to `false` to prevent the file descriptor from being\n  closed when the stream is ended.\n- `flags` Flags to use when opening the file.  Irrelevant if `fd` is\n  passed in, since file won't be opened in that case.  Defaults to\n  `'a'` if a `pos` is specified, or `'w'` otherwise.",
+  "_attachments": {}
+}
